@@ -6,7 +6,16 @@ export default defineUserConfig({
   title: "laogao",
   description: "Just playing around",
   base: `/test/`,
+  port: 8888,
   theme: recoTheme({
+    commentConfig: {
+      type: 'valine',
+      options: {
+        appId: 'zk97Tcec4bECHsYazJYSoFzc-gzGzoHsz', // your appId
+        appKey: 'xC2JZM44yVjjKCng3fAUtyTz', // your appKey
+        hideComments: false, // 全局隐藏评论，默认 false
+      },
+    },
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "laogao",
