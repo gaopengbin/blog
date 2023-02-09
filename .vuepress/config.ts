@@ -1,6 +1,8 @@
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+import { themeConfig } from './config/index'
+
 
 export default defineUserConfig({
   title: "laogao",
@@ -8,6 +10,7 @@ export default defineUserConfig({
   base: `/test/`,
   port: 8888,
   theme: recoTheme({
+    vuePreviewsDir: './.vuepress/vue-previews',
     commentConfig: {
       type: 'valine',
       options: {
@@ -44,7 +47,7 @@ export default defineUserConfig({
       {
         text: "其他",
         children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
+          { text: "写一篇", link: "/tools/write" },
           { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
         ],
       },
@@ -103,6 +106,7 @@ export default defineUserConfig({
         // },
       ],
     },
+    
     // valineConfig 配置与 1.x 一致
     // valineConfig: {
     //   appId: 'xxx',
