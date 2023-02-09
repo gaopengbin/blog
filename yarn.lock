@@ -3521,6 +3521,11 @@
   "resolved" "https://registry.npmmirror.com/obuf/-/obuf-1.1.2.tgz"
   "version" "1.1.2"
 
+"oh-my-live2d@^0.2.0":
+  "integrity" "sha512-yuZDjae0WtKQpMJAk5O2PFR0NpZLTyNvS08Cm3q09vixi/Li3kGLjIx3Ji7aPMuKwjVsTnEtUoF0mTU+KOoLDg=="
+  "resolved" "https://registry.npmmirror.com/oh-my-live2d/-/oh-my-live2d-0.2.1.tgz"
+  "version" "0.2.1"
+
 "on-finished@2.4.1":
   "integrity" "sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg=="
   "resolved" "https://registry.npmmirror.com/on-finished/-/on-finished-2.4.1.tgz"
@@ -3805,7 +3810,7 @@
   "resolved" "https://registry.npmmirror.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   "version" "4.2.0"
 
-"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.0", "postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.2.1", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.14", "postcss@^8.4.19", "postcss@^8.4.20", "postcss@>=8.0.9":
+"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.0", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.2.1", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.19", "postcss@^8.4.20", "postcss@>=8.0.9":
   "integrity" "sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg=="
   "resolved" "https://registry.npmmirror.com/postcss/-/postcss-8.4.21.tgz"
   "version" "8.4.21"
@@ -4673,6 +4678,13 @@
     "@vue/runtime-dom" "3.2.47"
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
+
+"vuepress-plugin-oh-my-live2d@^0.4.0":
+  "integrity" "sha512-uiNQP/oohBykSb7L6jULjYVeRnknRLOxSzxlXKNYt7+0fo6RWdQGT7Mu+CDpo4AIWr9nvBV6zS4TLkrkrlgW5w=="
+  "resolved" "https://registry.npmmirror.com/vuepress-plugin-oh-my-live2d/-/vuepress-plugin-oh-my-live2d-0.4.0.tgz"
+  "version" "0.4.0"
+  dependencies:
+    "oh-my-live2d" "^0.2.0"
 
 "vuepress-theme-reco@2.0.0-beta.50":
   "integrity" "sha512-dGzjdBVcelBrgy809WoRCVaiSca8kV4NQFXgloRT3XNY+DIUtwKZcfskWH2NLoz6xkFTjvFzbE922OSvmLTXBw=="
