@@ -1,8 +1,6 @@
 <template>
   <div class="demo-container">
-    <h2>dd</h2>
-
-    <button>提交</button>
+    <iframe src="http://localhost:3000/" frameborder="0" width="1000" height="800"></iframe>
   </div>
 </template>
   

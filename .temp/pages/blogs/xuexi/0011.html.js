@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-8e01c7b4\",\"path\":\"/blogs/xuexi/0011.html\",\"title\":9,\"lang\":\"en-US\",\"frontmatter\":{\"title\":9,\"date\":\"2016/12/15\",\"tags\":[\"TEST\"],\"categories\":[\"学习\"]},\"headers\":[],\"git\":{\"createdTime\":null,\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"blogs/学习/0011.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
