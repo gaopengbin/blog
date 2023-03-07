@@ -1,17 +1,14 @@
 <template>
   <div class="demo-container">
-    <h2>dd</h2>
-
-    <button>提交</button>
+    <iframe src="http://localhost:3000/#/" frameborder="0" width="1200" height="700"></iframe>
   </div>
 </template>
-  
-  <script setup lang="ts">
+
+<script setup lang="ts">
 </script>
-  
-  <style>
+
+<style>
 .demo-container {
-  width: 200px;
+  width:auto;
 }
 </style>
-  
