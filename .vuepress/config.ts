@@ -9,7 +9,7 @@ import { ohmylive2dPlugin } from 'vuepress-plugin-oh-my-live2d';
 export default defineUserConfig({
   title: "laogao",
   description: "Just playing around",
-  base: `/test/`,
+  base: `/blog/`,
   port: 7878,
   theme: recoTheme({
     vuePreviewsDir: './.vuepress/vue-previews',
