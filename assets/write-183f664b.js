@@ -1,0 +1,1 @@
+import{_ as e,p as t,q as s,s as _}from"./framework-631c3516.js";const o={},c={class:"demo-container"},r=_("iframe",{src:"http://localhost:3000/#/",frameborder:"0",width:"1200",height:"700"},null,-1),n=[r];function a(i,d){return t(),s("div",c,n)}const f=e(o,[["render",a],["__file","write.vue"]]);export{f as default};

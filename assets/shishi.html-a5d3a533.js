@@ -1,0 +1,1 @@
+import{_ as e,p as s,q as a,s as t}from"./framework-631c3516.js";const c={},o=t("p",null,[t("img",{src:"http://localhost:8888/test/avatar.png",alt:"avatar.png"})],-1),n=[o];function _(r,l){return s(),a("div",null,n)}const h=e(c,[["render",_],["__file","shishi.html.vue"]]);export{h as default};

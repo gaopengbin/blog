@@ -1,0 +1,1 @@
+import{_ as e,p as s,q as c,s as t}from"./framework-631c3516.js";const o={},_=t("p",null,[t("img",{src:"http://localhost:8888/test/和谐亭.jpg",alt:"和谐亭.jpg"})],-1),l=[_];function n(a,r){return s(),c("div",null,l)}const i=e(o,[["render",n],["__file","zzz.html.vue"]]);export{i as default};
