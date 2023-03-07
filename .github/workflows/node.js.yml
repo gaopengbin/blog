@@ -19,9 +19,10 @@ jobs:
         run: |
           npm install
           npm run build
-      - name: Copy to root   # 将打包好的文件复制到根目录，这里是为了方便部署，如果不需要可以删除
+      - name: Copy to root   # 将打包好的文件复制到docs目录，这里是为了方便部署，如果不需要可以删除
         run: |
-          ncp .vuepress/dist docs/1
+          cp -r vuepess/dist/* docs/1
+
       - name: Deploy   # 部署
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
