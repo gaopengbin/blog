@@ -1,0 +1,1 @@
+import{_ as r,p as a,q as o,t as n,s as e,G as s,n as c}from"./framework-631c3516.js";const _={},i=e("h1",{id:"写一篇吧",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#写一篇吧","aria-hidden":"true"},"#"),s(" 写一篇吧")],-1);function d(l,h){const t=c("write");return a(),o("div",null,[i,n(t)])}const m=r(_,[["render",d],["__file","write.html.vue"]]);export{m as default};

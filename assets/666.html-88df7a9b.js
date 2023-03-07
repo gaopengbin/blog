@@ -1,0 +1,1 @@
+import{_ as e,p as a,q as s,s as t,G as c}from"./framework-631c3516.js";const o={},_=t("p",null,[c("😃 "),t("img",{src:"http://localhost:7878/test/avatar.png",alt:"avatar.png"})],-1),n=[_];function r(l,p){return a(),s("div",null,n)}const i=e(o,[["render",r],["__file","666.html.vue"]]);export{i as default};
