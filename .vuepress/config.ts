@@ -4,12 +4,13 @@ import recoTheme from "vuepress-theme-reco";
 
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 import { ohmylive2dPlugin } from 'vuepress-plugin-oh-my-live2d';
-
+// import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+// import sakuraPlugin from 'vuepress-plugin-sakura'
 export default defineUserConfig({
   title: "laogao",
   description: "Just playing around",
-  base: `/test/`,
-  port: 8888,
+  base: `/blog/`,
+  port: 7878,
   theme: recoTheme({
     vuePreviewsDir: './.vuepress/vue-previews',
     commentConfig: {
@@ -110,18 +111,20 @@ export default defineUserConfig({
   }),
   // debug: true,
   plugins: [
+    // docsearchPlugin({}),
     mediumZoomPlugin(),
     ohmylive2dPlugin({
       source: 'live2dw',
       models: [
         {
-          path: '/live2d-widget-model-hibiki/assets/hibiki.model.json'
+          path: '/live2d-widget-model-miku/assets/miku.model.json'
         },
         {
-          path: '/live2d-widget-model-z16/assets/z16.model.json'
+          path: '/live2d-widget-model-wanko/assets/wanko.model.json'
         },
       ]
-    })
+    }),
+    // sakuraPlugin()
     // BgMusic({
     //   audios: [
     //     {

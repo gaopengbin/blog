@@ -3810,7 +3810,7 @@
   "resolved" "https://registry.npmmirror.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   "version" "4.2.0"
 
-"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.0", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.2.1", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.19", "postcss@^8.4.20", "postcss@>=8.0.9":
+"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.0", "postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.2.1", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.14", "postcss@^8.4.19", "postcss@^8.4.20", "postcss@>=8.0.9":
   "integrity" "sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg=="
   "resolved" "https://registry.npmmirror.com/postcss/-/postcss-8.4.21.tgz"
   "version" "8.4.21"
@@ -4685,6 +4685,11 @@
   "version" "0.4.0"
   dependencies:
     "oh-my-live2d" "^0.2.0"
+
+"vuepress-plugin-sakura@^1.2.1":
+  "integrity" "sha512-76q8SsTZngGIZB3+HQvZBUPn8DfgUreei2n6CINmsR0hc7zom5eOWbL0VbxVMnJc7axL1ED3etZuBd68TaBIxg=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-sakura/-/vuepress-plugin-sakura-1.2.1.tgz"
+  "version" "1.2.1"
 
 "vuepress-theme-reco@2.0.0-beta.50":
   "integrity" "sha512-dGzjdBVcelBrgy809WoRCVaiSca8kV4NQFXgloRT3XNY+DIUtwKZcfskWH2NLoz6xkFTjvFzbE922OSvmLTXBw=="

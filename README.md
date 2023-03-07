@@ -14,7 +14,7 @@ banner: # banner 模块的配置
   #   margin: 0 auto 2rem
   bgImage: /fengsugou.png
   bgImageStyle:
-    height: 500px
+    height: 1000px
 blog: # blog 模块的配置
   socialLinks: # 社交地址
     - { icon: 'BrandGithub', link: 'https://github.com/recoluan' }
