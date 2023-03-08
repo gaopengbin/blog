@@ -1,4 +1,3 @@
----
 ​---
 title: 【GIT使用】自动化更新部署
 date: 2023/03/08
@@ -7,7 +6,6 @@ tags:
 categories:
  - 学习
 ​---
----
 
 # Github Actions配合Github Pages实现项目自动化打包更新部署
 
