@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-e9d683f2","path":"/tools/write.html","title":"写一篇吧","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1678187120000,"updatedTime":1678187120000,"contributors":[{"name":"gaopengbin","email":"1804287165@qq.com","commits":1}]},"filePathRelative":"tools/write.md"}');export{e as data};
