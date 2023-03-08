@@ -1,14 +1,14 @@
 <template>
   <div class="demo-container">
-    <iframe src="http://localhost:3000/" frameborder="0" width="1000" height="800"></iframe>
+    <iframe src="http://localhost:3000/#/" frameborder="0" width="1200" height="700"></iframe>
   </div>
 </template>
-  <script setup lang="ts">
+
+<script setup lang="ts">
 </script>
-  
-  <style>
+
+<style>
 .demo-container {
-  width: 200px;
+  width:auto;
 }
 </style>
-  
